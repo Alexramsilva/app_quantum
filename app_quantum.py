@@ -56,7 +56,7 @@ st.sidebar.header("Parámetros del modelo")
 
 tickers_input = st.sidebar.text_area(
     "Claves de acciones (Yahoo Finance)",
-    value="BIMBOA.MX,WALMEX.MX,ALSEA.MX,GCARSOA1.MX,FEMSAUBD.MX"
+    value="GOOGL, TBBB, GMEXICOB.MX, HOOD, NVDA, AMZN, PLTR"
 )
 
 period = st.sidebar.selectbox(

@@ -20,6 +20,25 @@ st.set_page_config(
     page_icon="📊",
     layout="wide"
 )
+st.markdown("""
+<style>
+.stApp {
+    background-color: #161b22;
+    color: #F1F5F9;
+}
+[data-testid="stSidebar"] {
+    background-color: #0e1117;
+}
+h1, h2, h3 {
+    color: #6cb42d;
+}
+div[data-testid="stMetric"] {
+    background-color: #244A78;
+    padding: 12px;
+    border-radius: 10px;
+}
+</style>
+""", unsafe_allow_html=True)
 
 st.title("Nopal Quant | Selección de acciones con QAOA")
 

@@ -303,7 +303,7 @@ def build_qubo(
 
 ####
 
-def run_qaoa(qp, reps, maxiter, shots, penalty):
+def run_qaoa(qp, reps, maxiter, shots, penalty=100.0):
 
     sampler = StatevectorSampler(
         default_shots=shots,

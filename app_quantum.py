@@ -17,7 +17,7 @@ from qiskit.primitives import StatevectorSampler
 
 st.set_page_config(
     page_title="Nopal Quant | QAOA",
-    page_icon="📊",
+    page_icon="🌵",
     layout="wide"
 )
 st.markdown("""
@@ -39,7 +39,7 @@ div[data-testid="stMetric"] {
 }
 </style>
 """, unsafe_allow_html=True)
-
+st.image("NQH.svg", caption="", width=400)
 st.title("Nopal Quant | Selección de acciones con QAOA")
 
 st.write(

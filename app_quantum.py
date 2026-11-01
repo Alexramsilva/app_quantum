@@ -292,3 +292,9 @@ if ejecutar:
     except Exception as e:
 
         st.error(f"Error durante la ejecución: {e}")
+
+
+
+st.markdown("[Análisis financiero](https://retoactinver-7ugnxpfgupkdufnskngbvg.streamlit.app/)")
+st.markdown("[Reforcement Learning](https://b8rvvwhhdmfegkkcpwreoc.streamlit.app/)")
+st.markdown("[Simulación Monte Carlo](https://dr42zwffvmeo7pls3snkuv.streamlit.app/)")
